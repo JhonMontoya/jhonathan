@@ -1,7 +1,25 @@
 
 (function() {
   "use strict";
-
+/*
+  function getEdad(){
+    var dateToday = new Date()
+    var yearToday = dateToday.getFullYear()
+    var yearBirth = 1996
+    var mountBirth = 7
+    var dayBirth = 13
+    var age = yearToday - yearBirth
+  
+    var mountToday = dateToday.getMonth() + 1
+    var dayToday = dateToday.getDate()
+  
+    if (mountToday < mountBirth || (mountToday === mountBirth && dayToday < dayBirth)) {
+          age--
+    }
+    return age
+  }
+  select('#calculateAge').innerText = getEdad()
+*/
   /**
    * Easy selector helper function
    */
