@@ -363,7 +363,7 @@ section {
 }
 
 .section-title {
-  text-align: center;
+  text-align: left;
   padding-bottom: 30px;
 }
 
@@ -375,6 +375,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   color: #45505b;
+  text-align: center;
 }
 
 .section-title h2::before {
